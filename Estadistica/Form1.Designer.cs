@@ -67,12 +67,13 @@
             this.btnmediaaritmetica.TabIndex = 3;
             this.btnmediaaritmetica.Text = "Calcular x";
             this.btnmediaaritmetica.UseVisualStyleBackColor = true;
+            this.btnmediaaritmetica.Click += new System.EventHandler(this.btnmediaaritmetica_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 427);
+            this.ClientSize = new System.Drawing.Size(499, 270);
             this.Controls.Add(this.btnmediaaritmetica);
             this.Controls.Add(this.txtserie);
             this.Controls.Add(this.lblrespuesta_serie);
