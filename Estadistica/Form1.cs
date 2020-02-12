@@ -26,5 +26,15 @@ namespace Estadistica
             //dividi una cadena en base a un delimitador y devuelve una matriz con sus elementos
             lblrespuesta_serie.Text = "x=" + objEstadistica.media(txtserie.Text.Split(','));
         }
+
+        private void btncalcularestandar_Click(object sender, EventArgs e)
+        {
+            lblrespuesta_serie.Text = "Estandar=" + objEstadistica.estandar(txtserie.Text.Split(','));
+        }
+
+        private void btncalculartipica_Click(object sender, EventArgs e)
+        {
+            lblrespuesta_serie.Text = "Tipica=" + objEstadistica.tipica(txtserie.Text.Split(','));
+        }
     }
 }

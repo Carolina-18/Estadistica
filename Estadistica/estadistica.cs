@@ -9,9 +9,10 @@ namespace Estadistica
     class estadistica
     {
         //creamos el metodo una matriz
-        public double  suma = 0;
+       
         public double media(string[] serie)
         {
+            double suma = 0;
             //recorrer 
             foreach (string valor in serie) { 
             
